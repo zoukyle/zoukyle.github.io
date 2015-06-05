@@ -1,0 +1,25 @@
+.iframe-container {
+position: relative;
+padding-bottom: 75%;
+padding-top: 35px;
+height: 0;
+overflow: hidden;
+}
+.iframe-container iframe {
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+max-width: 1200px !important;
+height: 100%;
+}
+.auto-scale {
+max-width: 100%;
+height: auto;
+}
+.img-div {
+display:block;
+text-align:center;
+margin-right:auto;
+margin-left:auto;
+}
