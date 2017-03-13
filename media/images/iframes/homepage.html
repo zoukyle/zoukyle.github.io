@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Add jQuery library -->
+<script type="text/javascript" src="lib/jquery-1.10.1.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional)
+<script type="text/javascript" src="lib/jquery.mousewheel-3.0.6.pack.js"></script> -->
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+	  for (i = 0; i < 12; i++) {
+	    $("#fancybox" + (i + 1)).fancybox({
+		  helpers: {
+		      title : {
+			  type : 'float'
+		      }
+		  }});
+	  }
+	});
+</script>
+<style type="text/css">
+body {
+  background-color: #ffffff; /* #2f302f ; */
+}
+</style>
+</head>
+<body>
+  <div>
+<a id="fancybox1" href="imgs_b/641A8176.JPG" data-fancybox-group="gallery" title=""><img src="imgs_s/641A8176.jpg" alt="" /></a>
+<a id="fancybox2" href="imgs_b/641A8196.JPG" data-fancybox-group="gallery" title=""><img src="imgs_s/641A8196.jpg" alt="" /></a>
+<a id="fancybox3" href="imgs_b/641A8273.JPG" data-fancybox-group="gallery" title=""><img src="imgs_s/641A8273.jpg" alt="" /></a>
+<a id="fancybox4" href="imgs_b/641A9961.JPG" data-fancybox-group="gallery" title=""><img src="imgs_s/641A9961.jpg" alt="" /></a>
+<a id="fancybox5" href="imgs_b/641B1342.JPG" data-fancybox-group="gallery" title=""><img src="imgs_s/641B1342.jpg" alt="" /></a>
+<a id="fancybox6" href="imgs_b/641B1369.JPG" data-fancybox-group="gallery" title=""><img src="imgs_s/641B1369.jpg" alt="" /></a>
+<a id="fancybox7" href="imgs_b/641B1895.JPG" data-fancybox-group="gallery" title=""><img src="imgs_s/641B1895.jpg" alt="" /></a>
+<a id="fancybox8" href="imgs_b/641B2017.JPG" data-fancybox-group="gallery" title=""><img src="imgs_s/641B2017.jpg" alt="" /></a>
+<a id="fancybox9" href="imgs_b/641B2155.JPG" data-fancybox-group="gallery" title=""><img src="imgs_s/641B2155.jpg" alt="" /></a>
+<a id="fancybox10" href="imgs_b/641B2197.JPG" data-fancybox-group="gallery" title=""><img src="imgs_s/641B2197.jpg" alt="" /></a>
+<a id="fancybox11" href="imgs_b/641B5055.JPG" data-fancybox-group="gallery" title=""><img src="imgs_s/641B5055.jpg" alt="" /></a>
+<a id="fancybox12" href="imgs_b/641B5075.JPG" data-fancybox-group="gallery" title=""><img src="imgs_s/641B5075.jpg" alt="" /></a>
+  </div>
+</body>
+</html>
